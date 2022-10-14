@@ -8,6 +8,7 @@ arr[4]="bot: 😪 Hufft..."
 arr[5]="bot: 😎 I'm working for my master!"
 arr[6]="bot: 🙄 Running task, again."
 arr[7]="bot: 👻 Thanks master."
+arr[7]="bot: 🤔 Update?."
 
 rand=$[$RANDOM % ${#arr[@]}]
 d=`date '+%Y-%m-%dT%H:%M:%SZ'`
