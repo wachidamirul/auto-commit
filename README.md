@@ -14,3 +14,9 @@ MIT
 
 ## Special Thanks
 - [ad-m/github-push-action](https://github.com/ad-m/github-push-action)
+
+## Contributing
+Please feel free to send pull request if you want to contribute!
+
+## Author
+- [Wachid Amirul M](https://github.com/wachidamirul/)
