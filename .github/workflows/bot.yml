@@ -6,7 +6,7 @@ on:
       - master
       
   schedule:
-    - cron: "8 * * * *"
+    - cron: "0 1/4 * * *"
 
 jobs:
   auto-commit:
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2      
         with:
           persist-credentials: false
-          fetch-depth: 0
+          fetch-depth: 1
           
       - name: Run Bot Task
         run: |
